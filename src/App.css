@@ -1,0 +1,37 @@
+.main{
+  display: flex;
+  min-width: 100vw;
+  min-height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: darkslategray;
+}
+
+.colorDisplay{
+  min-height: 30vh;
+  min-width: 50vw;
+}
+
+.correctAnswer{
+  color: green;
+}
+
+.wrongAnswer{
+  color: crimson;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.optionsContainer{
+  display: flex;
+  justify-content: space-around;
+  width: 30vw;
+}
+
+.reloadButton{
+  align-self: flex-start;
+  margin-left: 5em;
+}
